@@ -1,0 +1,78 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Hub</title>
+
+    <link rel="stylesheet" href="{% static 'mycss2.css' %}">
+</head>
+
+<body>
+
+    <!-- First Div -->
+    <div class="heading">
+        <h1>Shopping Hub</h1>
+    </div>
+
+
+    <!-- Second Div -->
+    <div class="shopping-container">
+
+        <!-- Flipkart -->
+        <div class="shopping-item">
+            <img src="{% static 'flip1.jpeg' %}"
+                 alt="Flipkart">
+
+            <br>
+
+            <button onclick="window.open('https://www.flipkart.com/', '_blank')">
+                Flipkart
+            </button>
+        </div>
+
+
+        <!-- Amazon -->
+        <div class="shopping-item">
+            <img src="{% static 'ama1.jpeg' %}"
+                 alt="Amazon">
+
+            <br>
+
+            <button onclick="window.open('https://www.amazon.in/', '_blank')">
+                Amazon
+            </button>
+        </div>
+
+
+        <!-- Meesho -->
+        <div class="shopping-item">
+            <img src="{% static 'meesho1.jpeg' %}"
+                 alt="Meesho">
+
+            <br>
+
+            <button onclick="window.open('https://www.meesho.com/', '_blank')">
+                Meesho
+            </button>
+        </div>
+
+    </div>
+
+
+    <!-- Third Div -->
+    <div class="video-section">
+
+        <h2>Shopping Video</h2>
+
+        <video width="600" controls>
+            <source src="{% static 'pin.mp4' %}"
+                    type="video/mp4">
+
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+
+</body>
+</html>

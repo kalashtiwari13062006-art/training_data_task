@@ -1,0 +1,43 @@
+
+{% extends 'master.html' %}
+{% load static %}
+
+{% block content %}
+
+<h2>Beautiful Cities</h2>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="{% static 'bhopal.jpg' %}" alt="Bhopal">
+        <h3>Bhopal</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'mumbai.jpg' %}" alt="Mumbai">
+        <h3>Mumbai</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'goa.jpg' %}" alt="Delhi">
+        <h3>goa</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'varanasi.jpg' %}" alt="Jaipur">
+        <h3>varanasi</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'south.jpg' %}" alt="Goa">
+        <h3>south india</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'delhi.jpg' %}" alt="Kolkata">
+        <h3>delhi</h3>
+    </div>
+
+</div>
+
+{% endblock %}

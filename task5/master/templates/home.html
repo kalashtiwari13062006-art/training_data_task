@@ -1,0 +1,43 @@
+
+{% extends 'master.html' %}
+{% load static %}
+
+{% block content %}
+
+<h2>Mobile Collection</h2>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="{% static 'vivo.jpg' %}" alt="iPhone">
+        <h3>vivo</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'oneplus nord 6.jpg' %}" alt="Samsung">
+        <h3>one plus nord 6</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'motorola.jpg' %}" alt="OnePlus">
+        <h3>motorola</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'itel.jpg' %}" alt="Google Pixel">
+        <h3>itel</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images.jpg' %}" alt="Vivo">
+        <h3>Samesung</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static '18pro.jpg' %}" alt="Oppo">
+        <h3>IPhone</h3>
+    </div>
+
+</div>
+
+{% endblock %}

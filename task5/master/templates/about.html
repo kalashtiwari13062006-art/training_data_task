@@ -1,0 +1,43 @@
+
+{% extends 'master.html' %}
+{% load static %}
+
+{% block content %}
+
+<h2>Laptop Collection</h2>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="{% static 'acer.jpg' %}" alt="HP">
+        <h3>acer Laptop</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'asus.jpg' %}" alt="Dell">
+        <h3>asus Laptop</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'dell.jpg' %}" alt="Lenovo">
+        <h3>dell Laptop</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'hp.jpg' %}" alt="Asus">
+        <h3>hp Laptop</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'lenevo.jpg' %}" alt="Acer">
+        <h3>lenovo Laptop</h3>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'macbook.jpg' %}" alt="MacBook">
+        <h3>MacBook</h3>
+    </div>
+
+</div>
+
+{% endblock %}
